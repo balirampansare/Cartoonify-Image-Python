@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=whit" />
 </p>
 
-1. Library to Import
+1. **Libraries to Import**
 
     Import the Numpy and Open cv2 libraries
     
@@ -18,7 +18,7 @@
     import numpy as np
     ```
 
-2. Read the Image
+2. **Read the Image**
     ```
     img = cv2.imread("image//nature.jpg")
     cv2.imshow("input-1",img)
@@ -29,14 +29,14 @@
     ```
     ![Read Image](/image/input.PNG)
 
-3. Convert the image to gray
+3. **Convert the image to gray**
     ```
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
     cv2.imshow("gray-2", gray)
     ```
     ![Gray Image](/image/gray.PNG)
 
-4. Blur the gray converted image
+4. **Blur the gray converted image**
 
     Syntax:
     ```
@@ -49,7 +49,7 @@
     ```
     ![Blur Image](/image/blur.PNG)
      
-5. Perform Adaptive Threshold
+5. **Perform Adaptive Threshold**
 
     AdaptiveThreshold function performs the adaptive threshold to find dark edges
 
@@ -65,7 +65,7 @@
 
     Depending on the Image, change the numbers in the code in order to get best output
 
-6. Apply Bilateral Filter
+6. **Apply Bilateral Filter**
 
     A bilateral filter is a non-linear, edge-preserving, and noise-reducing smoothing filter for images.
     
@@ -85,7 +85,7 @@
 
     Depending on the Image, change the numbers in the code in order to get best output
     
-7. Final Output
+7. **Final Output**
 
     Performing bitwise_and on blurred image and masking the edged image.
 
