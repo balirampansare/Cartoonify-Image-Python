@@ -59,7 +59,7 @@
     ```
     Code:
     ```
-    adaptiveThreshold(src, dst, maxValue, adaptiveMethod, thresholdType, blockSize, C)
+    edges = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,3,5)
     ```
     ![Adapative Threshold Image](/image/edges.PNG)
 
